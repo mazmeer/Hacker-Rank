@@ -1,14 +1,14 @@
 def is_leap(year):
-    leap = False
+    Leap = False
     
-    if year == year%4:
-        if year == year%100 and year != year%400:
-            leap = False
-            
-        if year == year%100 and year == year%400:
-            leap = True
-    print(leap)     
-    return leap
     
+    if year%400==0 :
+        Leap = True
+
+    elif year%4 == 0 and year%100 != 0:
+        Leap = True
+
+    return Leap
 
 year = int(input())
+print(is_leap(year))
