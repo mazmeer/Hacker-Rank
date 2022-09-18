@@ -43,3 +43,5 @@ Text_Alignment https://www.hackerrank.com/challenges/text-alignment/problem?isFu
 Text_wrap https://www.hackerrank.com/challenges/text-wrap/problem?isFullScreen=true
 
 Tuples https://www.hackerrank.com/challenges/python-tuples/problem?isFullScreen=true
+
+Minion_Game https://www.hackerrank.com/challenges/the-minion-game/problem?isFullScreen=true
