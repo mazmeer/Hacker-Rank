@@ -8,7 +8,7 @@
         i = 0
     while i <= n:
         print (i**2,"\n")
-        i = i + 1'''
+        i = i + 1
 
 if __name__ == '__main__':
     n = int(input())
@@ -17,4 +17,10 @@ if __name__ == '__main__':
     i = 0
     while i <= n  and n >= 0:
         print (i**2,"\n")
-        i = i + 1
+        i = i + 1'''
+
+if __name__ == '__main__':
+    n = int(input())
+
+    for i in range(0, n):
+        print(i ** 2)
